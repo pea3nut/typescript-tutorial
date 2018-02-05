@@ -63,6 +63,16 @@ something = 7;
 something.setName('Tom');
 ```
 
+若你想禁止这种**隐式的 `any` 推断**，可以在 `tsconfig.json` 中指定 `noImplicitAny` 为 `true` 。
+
+```json
+{
+    "compilerOptions": {
+        "noImplicitAny": true
+    }
+}
+```
+
 ## 参考
 
 - [Basic Types # Any](http://www.typescriptlang.org/docs/handbook/basic-types.html#any)（[中文版](https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/Basic%20Types.html#任意值)）
