@@ -44,7 +44,7 @@
 - 有一定的学习成本，需要理解接口（Interfaces）、泛型（Generics）、类（Classes）、枚举类型（Enums）等前端工程师可能不是很熟悉的东西。而且它的中文资料也不多
 - 短期可能会增加一些开发成本，毕竟要多写一些类型的定义，不过对于一个需要长期维护的项目，TypeScript 能够减少其维护成本（这条需要来源）
 - 集成到构建流程需要一些工作量
-- 可能和一些库结合的不是很完美（这条需要举例）
+- 可能和一些库结合的不是很完美（比如[bluebird](https://github.com/petkaantonov/bluebird).[`promisifyall`](http://bluebirdjs.com/docs/api/promise.promisifyall.html)）
 
 大家可以根据自己团队和项目的情况判断是否需要使用 TypeScript。
 
